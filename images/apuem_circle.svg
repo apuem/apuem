@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A4 Copy</title>
+    <g id="A4-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#2B2B2B" stroke-width="6" fill="#F5F5F5" cx="400" cy="400" r="397"></circle>
+        <text id="apuem" font-family="Inter-Regular_Medium, Inter" font-size="194" font-weight="400" letter-spacing="0.713081081" fill="#2B2B2B">
+            <tspan x="82.7741271" y="461">apuem</tspan>
+        </text>
+    </g>
+</svg>
