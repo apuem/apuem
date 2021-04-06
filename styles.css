@@ -1,0 +1,23 @@
+body {
+    background-color: #F5F5F5 !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+
+p {
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+
+h1 {
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+
+a {
+  font-family: 'Space Grotesk', sans-serif !important;
+  text-decoration: none !important;
+}
+
+/* .btn-primary {
+    color: black !important;
+    background-color: blanchedalmond !important;
+    border: blanchedalmond !important;
+} */
