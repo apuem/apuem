@@ -1,19 +1,39 @@
 body {
     background-color: #F5F5F5 !important;
-    font-family: 'Space Grotesk', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 p {
-    font-family: 'Space Grotesk', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 h1 {
-    font-family: 'Space Grotesk', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif !important;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif !important;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif !important;
+}
+
+h5 {
+    font-family: 'Inter', sans-serif !important;
+}
+
+h6 {
+    font-family: 'Inter', sans-serif !important;
 }
 
 a {
-  font-family: 'Space Grotesk', sans-serif !important;
-  text-decoration: none !important;
+    font-family: 'Inter', sans-serif !important;
+    text-decoration: none !important;
 }
 
 /* .btn-primary {
@@ -23,6 +43,6 @@ a {
 } */
 
 .hobj:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #acacac !important;
     transition: 1s;
 }

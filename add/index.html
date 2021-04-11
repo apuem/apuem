@@ -23,12 +23,14 @@
 
         gtag("config", "G-ZEPRDVXYRZ");
     </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
 </head>
 <body>
     <header class="p-3 mb-3 border-bottom">
         <div class="container d-flex flex-wrap">
             <ul class="nav me-lg-auto">
-              <li><a href="#" style="font-weight: bold; font-size: larger;" class="nav-link px-2 link-dark">a::collection</a></li>
+              <li><a href="#" style="font-weight: bold; font-size: larger; font-family: 'Space Grotesk', sans-serif !important;" class="nav-link px-2 link-dark">a::collection</a></li>
             </ul>
             <ul class="nav">
               <li class="py-0"><a href="https://collection.apuem.com" class="nav-link px-2 py-0 link-secondary"><i class="bi bi-x-circle" style="font-size: 2rem;"></i></a></li>
@@ -43,7 +45,9 @@
                 <a style="color: #111111 !important;" href="https://github.com/apuem/apuem/issues/new">
                     <div style="border: 1px solid #DCDCDC;" class="p-5 m-4 bg-light rounded-3 hobj">
                         <h2>Own Idea</h2>
+                        <hr color="#acacac">
                         <p>If you have an idea for another web app, click here and add a new issue on GitHub (apuem/apuem), or if you don't have a GitHub account, you can just email us.</p>
+                        <a class="mt-5" href="https://github.com/apuem/apuem/issues/new">Get there <i class="bi bi-arrow-up-right-circle" style="color: text-primary;"></i></a>
                     </div>
                 </a>
               </div>
@@ -51,11 +55,28 @@
                 <a style="color: #111111 !important;" href="new-app">
                     <div style="border: 1px solid #DCDCDC;" class="p-5 m-4 bg-light rounded-3 hobj">
                         <h2>Own App</h2>
+                        <hr color="#acacac">
                         <p>If you have a web app and want to add it click here to create a new app on apuem. </p>
+                        <a class="mt-5" onclick="sendEmail()">Get there <i class="bi bi-arrow-up-right-circle" style="color: text-primary;"></i></a>
                     </div>
                 </a>
               </div>
         </div>
       </main>
+      <script>
+        function sendEmail() {
+          Email.send({
+              Host : "smtp.yandex.com",
+              Username : "support@apuem.com",
+              Password : "epgctadauauabdoh",
+              To : 'Jona.Kaufmann@yahoo.com',
+              From : "support@apuem.com",
+              Subject : "Hello World",
+              Body : "This is an auto generated Email. Please do not reply to this."
+          }).then(
+            message => alert(message)
+          );
+      }
+      </script>
 </body>
 </html>
