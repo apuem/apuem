@@ -1,0 +1,22 @@
+{
+  "name": "apuem",
+  "version": "1.0.0",
+  "description": "The web app collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apuem/apuem.git"
+  },
+  "keywords": [
+    "web-app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apuem/apuem/issues"
+  },
+  "homepage": "https://github.com/apuem/apuem#readme"
+}
